@@ -1,0 +1,11 @@
+n=int(input())
+sum=0
+temp=n
+while(n>0):
+    digit=n%10
+    sum=sum+digit
+    n=n//10
+if(temp%sum==0):
+    print("harshad")
+else:
+    print("no")
